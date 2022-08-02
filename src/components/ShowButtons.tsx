@@ -1,11 +1,16 @@
 
 import Styles from '../styles/modules/ShowButtons.module.css';
 
-export function ShowButtons(){
+interface ButtonAtribute{
+    color: string;
+    children: string;
+}
+
+export function ShowButtons(props: ButtonAtribute ){
     return(
-        <button type="button" className={Styles.buttonTeste}>
-            Button de
+        <button type="button" style={{ backgroundColor: props.color }} className={Styles.buttonTeste}>
             <strong> Teste</strong>
+            {props.children}
         </button>        
     );
 }
