@@ -1,0 +1,10 @@
+
+.buttonTeste{
+    border: 0;
+    background: var(--button);
+    color: var(--alternative3);
+
+    padding: 0.75rem;
+
+    border-radius: 5px;
+}
