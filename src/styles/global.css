@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --backgorund: #eeebf9;
+    --button: #4e38b2;
+    --title: #140e2d;
+    --alternative1: #e8e8e8; 
+    --alternative2: #d9d1f2; 
+    --alternative3: #faeef1;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    background: var(--backgorund);
+}
