@@ -1,0 +1,29 @@
+
+.ProfileContainer{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 1rem;
+}
+.ProfileContainer > img{
+    border-radius: 50%;
+    max-width: 15rem;
+}
+.Date{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    padding-left: 1rem;
+}
+.Date strong{
+    margin-bottom: 2rem;
+    color: var(--title);
+}
+.Date h4{
+    margin-bottom: 1rem;
+    color: var(--title);
+}

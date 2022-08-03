@@ -1,3 +1,4 @@
+import { Profile } from "../components/Profile";
 import { ShowButtons } from "../components/ShowButtons";
 
 export default function Home() {
@@ -7,7 +8,10 @@ export default function Home() {
         <ShowButtons color="tomato">  </ShowButtons>
         <ShowButtons color="gray">  </ShowButtons>
         <ShowButtons color="violet">  </ShowButtons>
-      </header>      
+      </header>
+      <section>
+        <Profile />
+      </section>
     </>
   );
 }
