@@ -2,16 +2,18 @@
 .ProfileContainer{
     width: 100%;
     
-    padding: 5rem 0;
+    padding: 2rem 0;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    gap: 1rem;
+    
 }
 .ProfileContainer > img{
     border-radius: 50%;
     max-width: 15rem;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 .Data{
     display: flex;
@@ -22,7 +24,9 @@
     padding-left: 1rem;
 }
 .Data strong{
-    margin-bottom: 2rem;
+
+    font-size: 1.5rem;
+
     color: var(--title);
 }
 
@@ -38,5 +42,10 @@
     .ProfileContainer > img{
         border-radius: 50%;
         max-width: 10rem;
+    }
+
+    .Data strong{
+        margin-top: 1rem;
+        font-size: 1.2rem;
     }
 }
