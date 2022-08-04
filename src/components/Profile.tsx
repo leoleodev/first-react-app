@@ -5,10 +5,9 @@ export function Profile(){
     return(
         <section className={Styles.ProfileContainer}>
             <img src="https://github.com/leoleodev.png" alt="Leonardo" />
-            <div className={Styles.Date}>
+            <div className={Styles.Data}>
                 <strong>Leonardo Developer Front End</strong>
-                <h4><li>STAKE</li></h4>
-                <p>Developer with React JS</p>
+                
             </div>
             
         </section>

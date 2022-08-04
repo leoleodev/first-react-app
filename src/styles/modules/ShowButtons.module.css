@@ -1,7 +1,20 @@
 
-.buttonTeste{
-    background: var(--button);
+.divContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divContainer > button{
+
+    width: 4rem;
+    height: auto;
+    
     color: var(--alternative3);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     border: 0;
     border-radius: 5px;
@@ -12,6 +25,16 @@
     transition: 0.5s;
 
     cursor: pointer;
+}
+
+.divContainer > button:nth-child(1){
+    background: var(--red);
+}
+.divContainer > button:nth-child(2){
+    background: var(--button);
+}
+.divContainer > button:nth-child(3){
+    background: var(--green);
 }
 
 .buttonTeste:hover{

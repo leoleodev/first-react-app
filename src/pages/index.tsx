@@ -1,16 +1,16 @@
 import { Profile } from "../components/Profile";
 import { ShowButtons } from "../components/ShowButtons";
+import { Stake } from "../components/Stake";
 
 export default function Home() {
   return (
     <>
       <header>
-        <ShowButtons color="tomato">  </ShowButtons>
-        <ShowButtons color="gray">  </ShowButtons>
-        <ShowButtons color="violet">  </ShowButtons>
+        <ShowButtons />
       </header>
       <section>
         <Profile />
+        <Stake />
       </section>
     </>
   );
