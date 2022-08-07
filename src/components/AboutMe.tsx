@@ -10,12 +10,12 @@ export function AboutMe(){
 
             <section className={Styles.TextContainer}>
                 <p>
-                    Hello my name is Leonardo Magalhães, i´m student programing, most
-                    especifically front-end with focus in the React JS, but have knowledges
-                    in operation of web and yours technologeis such as HTML, CSS and linguages
-                    of programing as JavaScript.
-                    I have also knowledges in framework of styles, Bootstrap and currently
-                    i´m studing reactjs as library of javascript together as NextJs.
+                    Hello, my name is Leonardo Magalhães, I am a programming student,
+                    more specifically front-end with a focus on React JS, but I 
+                    have knowledge of how the web works and its technologies like 
+                    HTML, CSS and programming languages ​​like JavaScript. I also have 
+                    knowledge in styles framework, Bootstrap and I am currently 
+                    studying reactjs as a javascript library along with NextJs.
                 </p>
             </section>
 
